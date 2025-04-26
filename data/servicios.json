@@ -16,6 +16,21 @@
       "titulo": "Consultoría Digital",
       "descripcion": "Te ayudamos a definir y mejorar tu estrategia digital.",
       "imagen": "assets/img/servicio3.jpg"
+    },
+    {
+      "titulo": "Ciberseguridad",
+      "descripcion": "Protegemos tu información y sistemas frente a amenazas y vulnerabilidades.",
+      "imagen": "assets/img/servicio4.jpg"
+    },
+    {
+      "titulo": "Soporte Técnico",
+      "descripcion": "Brindamos asistencia técnica para que tu infraestructura tecnológica funcione sin problemas.",
+      "imagen": "assets/img/servicio5.jpg"
+    },
+    {
+      "titulo": "Marketing Digital",
+      "descripcion": "Aumenta tu presencia en línea con estrategias de marketing efectivas.",
+      "imagen": "assets/img/servicio6.jpg"
     }
   ]
 }
