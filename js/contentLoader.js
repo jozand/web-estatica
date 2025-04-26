@@ -37,7 +37,7 @@ function loadContent(jsonPath) {
         // Carrusel
         if (data.carousel && Array.isArray(data.carousel)) {
           html += `
-            <div id="carouselInicio" class="carousel slide carousel-fade mb-5" data-bs-ride="carousel">
+            <div id="carouselInicio" class="carousel slide mb-5" data-bs-ride="carousel" data-bs-interval="3000">
               <div class="carousel-inner">
                 ${data.carousel.map((item, index) => `
                   <div class="carousel-item ${index === 0 ? 'active' : ''}">
@@ -54,6 +54,7 @@ function loadContent(jsonPath) {
             </div>
           `;
         }
+       
 
         // Párrafos
         if (data.parrafos && Array.isArray(data.parrafos)) {
