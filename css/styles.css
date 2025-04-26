@@ -1,15 +1,47 @@
-/* Estilos básicos para la página */
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f8f9fa;
+/* Estilo para el menú */
+.navbar {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Sombra suave debajo del menú */
 }
 
-.card {
-  border-radius: 10px;
-  overflow: hidden;
+.navbar-nav .nav-link {
+  padding: 10px 20px;
+  /* Espaciado en los enlaces */
+  font-size: 1.1rem;
+  /* Tamaño de la fuente */
+  transition: all 0.3s ease;
+  /* Transición suave al pasar el ratón */
 }
 
-.card-img-top {
-  height: 200px;
-  object-fit: cover;
+.navbar-nav .nav-link:hover {
+  background-color: #0056b3;
+  /* Color de fondo al pasar el ratón */
+  color: #fff;
+  /* Texto blanco */
+  border-radius: 5px;
+  /* Bordes redondeados */
+}
+
+.navbar-nav .nav-item+.nav-item {
+  margin-left: 15px;
+  /* Separación entre los elementos del menú */
+}
+
+.navbar-toggler-icon {
+  background-color: #fff;
+  /* Color del icono de menú en móviles */
+}
+
+/* Para hacerlo más atractivo en móviles */
+@media (max-width: 767px) {
+  .navbar-nav {
+    text-align: center;
+    /* Centrado de los enlaces en móviles */
+  }
+}
+
+.nav-link.active {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 0.5rem;
+  font-weight: bold;
 }
