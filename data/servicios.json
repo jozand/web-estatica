@@ -1,0 +1,21 @@
+{
+  "titulo": "Nuestros Servicios",
+  "subtitulo": "Lo que podemos hacer por ti",
+  "servicios": [
+    {
+      "titulo": "Diseño Web",
+      "descripcion": "Creamos sitios web atractivos y funcionales para tu negocio.",
+      "imagen": "assets/img/servicio1.jpg"
+    },
+    {
+      "titulo": "Desarrollo de Software",
+      "descripcion": "Desarrollamos soluciones a medida para resolver los problemas de tu empresa.",
+      "imagen": "assets/img/servicio2.jpg"
+    },
+    {
+      "titulo": "Consultoría Digital",
+      "descripcion": "Te ayudamos a definir y mejorar tu estrategia digital.",
+      "imagen": "assets/img/servicio3.jpg"
+    }
+  ]
+}

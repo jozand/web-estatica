@@ -1,0 +1,9 @@
+{
+  "titulo": "Bienvenidos a Chemos Web",
+  "subtitulo": "La mejor página web para tus necesidades",
+  "parrafos": [
+    "Bienvenidos a nuestro sitio, donde ofrecemos una variedad de servicios personalizados para ti.",
+    "Explora nuestros servicios y descubre cómo podemos ayudarte a mejorar tu experiencia en línea."
+  ],
+  "imagen": "assets/img/inicio.jpg"
+}

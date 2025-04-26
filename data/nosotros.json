@@ -1,0 +1,9 @@
+{
+  "titulo": "Acerca de Nosotros",
+  "subtitulo": "Conoce más sobre nuestra empresa",
+  "parrafos": [
+    "En Chemos Web, nos dedicamos a brindar soluciones digitales personalizadas para empresas y particulares.",
+    "Nuestro objetivo es ofrecer servicios de calidad para mejorar la presencia en línea de nuestros clientes."
+  ],
+  "imagen": "assets/img/nosotros.jpg"
+}
